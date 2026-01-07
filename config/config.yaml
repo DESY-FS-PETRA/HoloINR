@@ -1,0 +1,56 @@
+BeamSetup:
+    z01: 61.12e7
+    z02: 19.145e9
+    px_size: 6500
+    energy: 17
+
+Encoder:
+    encoding: hashgrid
+    log2_hashmap_size: 21
+    level_dim: 4
+    num_levels: 16
+
+Network:
+    num_layers: 4
+    hidden_dim: 64
+    skips:
+        - 2
+    out_dim: 2
+
+OffsetOptimization:
+    lr: 0.01
+
+RayPropagator:
+    n_samples: 1040 
+    netchunk: 30000
+    num_grad_samples: 8000
+
+Wandb:
+    project: "my_project"
+    entity: "my-entity"
+    mode: "online" # or disabled
+
+Optimization:
+       -
+        lr: 0.01
+        downsampling: 1
+        epochs: 200
+        compute_mask: false
+        align: false
+        split: 1
+        align_every_epoch: 3
+        
+        # Sample weights
+        weight_tv_real: 0.0
+        weight_tv_imag: 0.1
+        weight_l1_real: 0.005
+        weight_l1_imag: 0.0
+
+Key: snail
+
+Dataset:
+    data_path: '../../../data/snail_data.h5'
+    preprocessed_path: "../../../data/snail_preproc.h5"
+    use_every_nth_angle: 1
+    padding_factor: 1
+    crop_idcs: [200, 2048, 104, 1952] # x_min, x_max, y_min, y_max

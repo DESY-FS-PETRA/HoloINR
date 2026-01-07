@@ -1,0 +1,26 @@
+# Requirements for the project
+# Core scientific and ML libraries
+numpy
+scipy
+torch
+torchvision
+torchmetrics
+tqdm
+scikit-image
+h5py
+omegaconf
+hydra-core
+wandb
+holowizard
+ninja
+pytorch-msssim
+
+# Optional: for visualization and summaries
+matplotlib
+pillow
+
+# If using torchsummary
+torchsummary
+
+# If using skimage as 'io'
+scikit-image
