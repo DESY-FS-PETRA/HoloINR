@@ -1,5 +1,5 @@
 # HoloINR
-Reproducibility repository of this [conference paper](https://sites.google.com/view/icassp-ipcx2025/home) (update link)  
+Reproducibility repository of this [conference paper](https://ieeexplore.ieee.org/abstract/document/11463026)
 Using Implicit Neural Representations (INRs) to solve the coupled inverse problem of holotomography (Holography and Tomography). The code is developed for the near-field holography case, i.e. Fresnel propagation is used to describe the physics between object and detector.
 
 
@@ -49,12 +49,21 @@ If you run into memory issues
 In case you encounter any problems please open an issue.
 
 ## Citation
-Please cite (update)
+Please cite
 ```
-@unpublished{Gruen_2025,
-  author       = {Gruen, Johannes and Eberle, Sebastian and Greving, Imke and Flenner, Silja and
-                  Burger, Martin and Schroer, Christian G. and Hagemann, Johannes},
-  title        = {X-Ray Near-Field Holotomography Reconstruction Using Implicit Neural Representations},
-  year         = {2025},
+@inproceedings{gruenXRayNearFieldHolotomography2026,
+  title = {X-{{Ray Near-Field Holotomography Reconstruction Using Implicit Neural Representations}}},
+  booktitle = {{{ICASSP}} 2026 - 2026 {{IEEE International Conference}} on {{Acoustics}}, {{Speech}} and {{Signal Processing}} ({{ICASSP}})},
+  author = {Gruen, Johannes and Eberle, Sebastian and Greving, Imke and Flenner, Silja and Burger, Martin and Schroer, Christian G. and Hagemann, Johannes},
+  year = 2026,
+  month = may,
+  pages = {21927--21931},
+  publisher = {IEEE},
+  address = {Barcelona, Spain},
+  doi = {10.1109/ICASSP55912.2026.11463026},
+  urldate = {2026-04-27},
+  copyright = {https://doi.org/10.15223/policy-029},
+  isbn = {979-8-3315-6701-9},
+  file = {/home/sebastian/Zotero/storage/6P6MIWPQ/Gruen et al. - 2026 - X-Ray Near-Field Holotomography Reconstruction Using Implicit Neural Representations.pdf}
 }
 ```
