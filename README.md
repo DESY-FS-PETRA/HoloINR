@@ -1,6 +1,5 @@
 # HoloINR
-Reproducibility repository of this [conference paper](https://ieeexplore.ieee.org/abstract/document/11463026)
-Using Implicit Neural Representations (INRs) to solve the coupled inverse problem of holotomography (Holography and Tomography). The code is developed for the near-field holography case, i.e. Fresnel propagation is used to describe the physics between object and detector.
+Reproducibility repository of this [conference paper](https://ieeexplore.ieee.org/abstract/document/11463026) using Implicit Neural Representations (INRs) to solve the coupled inverse problem of holotomography (Holography and Tomography). The code is developed for the near-field holography case, i.e. Fresnel propagation is used to describe the physics between object and detector.
 
 
 ## Getting started
@@ -64,6 +63,5 @@ Please cite
   urldate = {2026-04-27},
   copyright = {https://doi.org/10.15223/policy-029},
   isbn = {979-8-3315-6701-9},
-  file = {/home/sebastian/Zotero/storage/6P6MIWPQ/Gruen et al. - 2026 - X-Ray Near-Field Holotomography Reconstruction Using Implicit Neural Representations.pdf}
 }
 ```
